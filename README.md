@@ -8,7 +8,10 @@ Hexagonal (Clean) architecture combined with the CQRS architectural pattern (onl
 For the business logic itself, the principles of DDD were applied (business logic in the model itself, Identity as a separate object for the specific identification of entities etc).
 
 The business logic and tests were written using concepts from the Unit Testing book by author Vladimir Khorikov.
-Used FluentAssertion library for results assertion. 
+Used FluentAssertion library for results assertion.
+
+Used Scrutor library for dependency injection.
+
 
 
 
