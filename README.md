@@ -12,7 +12,7 @@ Used FluentAssertion library for results assertion.
 
 Used Scrutor library for dependency injection.
 
-
+Chosen logging method is writting in the database instead of using system logging with the Serilog library.
 
 
 The application consists of:
