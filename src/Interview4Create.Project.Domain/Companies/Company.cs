@@ -10,6 +10,7 @@ public class Company : Entity<CompanyIdentity>
 {
     private string _name;
     private readonly ISet<Employee> _employees;
+
     public Company(CompanyIdentity id, string name, DateTime createdTs) : base(id, createdTs)
     {
         Name = name;
