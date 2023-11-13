@@ -23,6 +23,7 @@ public class CompaniesController : ApiController
             return GetErrorResponse(result.Errors);
         }
 
+        //Should be return CreatedAtRoute.. (status code should be 201) but we don't have GetById endpoint
         return Ok(result.Data);
     }
 }
